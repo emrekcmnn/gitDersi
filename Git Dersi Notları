@@ -1,0 +1,40 @@
+Git Dersi Notları
+
+
+BİRİNCİ DERS
+
+-VSC nedir?  Bilgisayarımızda kayıtlı dosya, kodlar vb. ürünlerin takibini yapan sistem.
+-VCS nin faydaları: 
+-Ne zaman, nasıl ve kim tarafından bir değişiklik yapıldığını takip etmemizi sağlar.
+- Bu değişikliklere istediğimiz zaman ulaşmamıza imkan tanır.
+-GIT nedir? En bilinen ve en yaygın VCS dir.
+- Repository : takip ettiğimiz projenin depolandığı alan. Local ve origin
+- Stage alanı: İlk kayıt noktası
+- Commit : değişikliklerin kayıt altına alınması
+- Branch : Projemizin takip edildiği yol 
+
+
+Komutlar
+
+1.	git init 							  bulunduğu konumu/klasörü VCS takibine alır.
+2.	git add .							  çalışmaları stage alanına alır.(track files)
+3.	git status							  durumunuzun ne olduğunu gösterir(stage? Commit? Branch?)
+4.	git commit -m “mesaj”				  bir mesajla commit etmemizi sağlar.
+5.	git config user.name emre	  	      VCS nin kullanacağı adı belirtir.
+6.	git config user.email e@mail  		 VCS nin kullanacağı email adresini belirtir.
+7.	git config --global user.name emre			  PC nin heryerinde  VCS nin kullanacağı adı belirtir.
+8.	git config --global user.email e@mail   		  PC nin heryerinde VCS nin kullanacağı email adresini belirtir.
+9.	pwd											   hangi dosya/klasörde olduğumuzu gösterir.
+10.	git commit -am “mesaj”					  add yapıp mesaj ile commit etmeye yarar.
+11.	git branch newFeature					  newFeature adında yeni bir branch oluşturur.
+12.	git checkout newFeature					  newFeature branch ına geçiş yapar.
+13.	git branch								  branch listesini verir.
+14.	git branch -d newFeature				  newFeature branch ini siler
+15.	git merge newFeatue						  bulunduğumuz branch e newfeature branch ini birleştirir.
+16. git remote -v
+17.
+
+
+İKİNCİ DERS
+
+!!! ÖNEMLİ	 commit edilmemiş değişiklikler hiçbir branch e ait değildir, dolayısıyla checkout komutuyla gittiğimiz branch e taşınırlar. 
